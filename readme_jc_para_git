@@ -1,0 +1,13 @@
+1. crear el repositorio en Git 
+2. en el vcode en el terminal,   ejecutar:  git init <-!
+3. crear el archivo .gitignore para indicar que archivo no respaldar o subir
+4. se puede crear el contenido del  archivo  en la web en gitignore.io  
+5. copiar el contenido en el archivo .gitignore
+6. para subir los archivos con el comando: git add .gitignore
+7.  revisar con : git status 
+8. luego con : git add -A, damo la orden de subir el o los  archivo
+9. hacemos un commit : git commit -m "Agregar mi primeros fuentaas jc" 
+10. Indicar en que rama se debe subir:  git branch -M main
+11. Indicar en que repositorio vamos a subir:  git remote add origin https://github.com/jcalcivarg/manipulacion_doom_basica_js.git
+12.  por ultimo hacemos : push -u origin main
+11. 
