@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de Doom  básico   , CLASE 12 , curso practico de js  </title>
+</head>
+<body>
+
+    <h1>   Curso practico   js X , CLASE 12  pero con formularios </h1>
+
+     <!--   console.log("hola, world   xxxx");  -->
+
+    
+    
+    
+    <form id="form">
+        <!--probando eventos  diciendo que accion se ejecuta , em este caso llamando al console.log " -->
+        <input  onChange="console.log('cambio el dato') "  id ="calculo1" placeholder="escribe algo aqui "/> 
+        <input  onmouseover="console.log('moviendo el mouse sobre el elemento')" id ="calculo2"  placeholder="escribe algo aqui "/> 
+
+        <!--probando eventos  diciendo que accion se ejecuta  cuando da click, llamando al console.log " -->
+        <!--<button id="btnCalcular" onclick="console.log('dio click')" > Calcular </button> -->
+
+        <!-- probando eventos  diciendo que accion se ejecuta  cuando da click, desde una funcion " -->
+        <!--  pero ya el evento esta en el js  y no el html  -->
+
+        <button type ="button" id="btnCalcular"> Calcular </button>
+        <p id="result"></p>
+
+        <!--en este ejemplo el ultimo boton se asume es un sun submit o boton de envio,   -->
+
+
+    </form>
+
+
+    
+
+    <script src="./10_script.js">  </script>
+
+
+    
+
+</body>
+</html>
